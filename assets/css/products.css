@@ -1,0 +1,30 @@
+span:hover{
+  color : rgb(209, 9, 42);
+  border-bottom: 2px solid rgb(209, 9, 42);
+}
+
+.lat{
+    font-family: 'El Messiri', sans-serif !important;
+    font-size: 5rem;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+   
+}
+
+.tags{
+  font-size: 1.4rem;
+  margin-right: 21px;
+}
+
+
+@media only screen and (max-width: 900px){
+
+     .lat{
+         font-size: 4rem;
+     }
+
+     .tags{
+       font-size: 1rem;
+       margin-right: 12px;
+     }
+}
